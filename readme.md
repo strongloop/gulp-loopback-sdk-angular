@@ -11,6 +11,7 @@ Since strongloop didn't get around to this yet, I just quickly put this together
 $ npm install --save-dev gulp-loopback-sdk-angular
 ```
 
+Not published yet. Will get around to it tonight.
 
 ## Usage
 
@@ -21,9 +22,9 @@ var loopbackAngular = require('gulp-loopback-sdk-angular');
 
 gulp.task('default', function () {
 	return gulp.src('./server/app.js')
-		.pipe(loopbackAngular())
+    .pipe(loopbackAngular())
     .pipe(rename('lb-services.js'))
-		.pipe(gulp.dest('./client/js'));
+    .pipe(gulp.dest('./client/js'));
 });
 ```
 
@@ -48,7 +49,7 @@ Default: The value configured in the LoopBack application via app.set('restApiRo
 
 ## Everything Else
 
-[http://docs.strongloop.com/display/LB/AngularJS+JavaScript+SDK]
+http://docs.strongloop.com/display/LB/AngularJS+JavaScript+SDK
 
 
 ## License
