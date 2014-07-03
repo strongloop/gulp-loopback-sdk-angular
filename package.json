@@ -18,13 +18,18 @@
     "index.js"
   ],
   "keywords": [
-    "gulpplugin"
+    "gulpplugin",
+    "angular",
+    "loopback"
   ],
   "dependencies": {
     "gulp-util": "~2.2.19",
+    "loopback-sdk-angular": "~1.1.2",
     "through2": "~0.5.1"
   },
   "devDependencies": {
+    "loopback": "~1.9.1",
+    "loopback-datasource-juggler": "~1.6.3",
     "mocha": "*"
   }
 }
