@@ -6,7 +6,7 @@ var generator = require('loopback-sdk-angular');
 module.exports = function (options) {
   return through.obj(function (file, enc, cb) {
     if (file.isNull()) {
-      this.emit('error', new gutil.PluginError('gulp-loopback-sdk-angular', 'Input file ' + file.path + ' not found.'));
+      this.push(file);
       cb();
       return;
     }
@@ -15,7 +15,10 @@ module.exports = function (options) {
     try {
       app = require(file.path);
 
+      //  Incase options is undefined.
       options = options || { ngModuleName: 'lbServices', apiUrl: undefined };
+      
+      options.ngModuleName = options.ngModuleName || 'lbServices';
       options.apiUrl = options.apiUrl || app.get('restApiRoot') || '/api';
 
       gutil.log('Loaded LoopBack app', gutil.colors.magenta(file.path));
