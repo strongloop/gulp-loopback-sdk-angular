@@ -1,6 +1,6 @@
 {
   "name": "gulp-loopback-sdk-angular",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "gulp plugin for auto-generating Angular $resource services for LoopBack",
   "license": "MIT",
   "repository": "zimlin/gulp-loopback-sdk-angular",
