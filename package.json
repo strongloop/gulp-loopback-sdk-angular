@@ -6,6 +6,7 @@
   "repository": "zimlin/gulp-loopback-sdk-angular",
   "author": {
     "name": "Zi Ming Lin",
+    "email": "zi.lin9@gmail.com",
     "url": "https://github.com/zimlin"
   },
   "engines": {
@@ -23,13 +24,13 @@
     "loopback"
   ],
   "dependencies": {
-    "gulp-util": "~2.2.19",
-    "loopback-sdk-angular": "~1.1.2",
-    "through2": "~0.5.1"
+    "gulp-util": "^3.0.1",
+    "loopback-sdk-angular": "^1.2.0",
+    "through2": "^1.1.1"
   },
   "devDependencies": {
-    "loopback": "~1.9.1",
-    "loopback-datasource-juggler": "~1.6.3",
+    "loopback": "^2.1.4",
+    "loopback-datasource-juggler": "^2.8.0",
     "mocha": "*"
   }
 }
