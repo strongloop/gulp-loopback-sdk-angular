@@ -1,6 +1,6 @@
 {
   "name": "gulp-loopback-sdk-angular",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "gulp plugin for auto-generating Angular $resource services for LoopBack",
   "license": "MIT",
   "repository": "zimlin/gulp-loopback-sdk-angular",
@@ -26,7 +26,8 @@
   "dependencies": {
     "gulp-util": "^3.0.1",
     "loopback-sdk-angular": "^1.2.2",
-    "through2": "^1.1.1"
+    "through2": "^1.1.1",
+    "watchjs": "0.0.0"
   },
   "devDependencies": {
     "loopback": "^2.2.0",
