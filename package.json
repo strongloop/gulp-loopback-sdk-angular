@@ -3,7 +3,7 @@
   "version": "0.1.2",
   "description": "gulp plugin for auto-generating Angular $resource services for LoopBack",
   "license": "MIT",
-  "repository": "zimlin/gulp-loopback-sdk-angular",
+  "repository": "strongloop/gulp-loopback-sdk-angular",
   "author": {
     "name": "Zi Ming Lin",
     "email": "zi.lin9@gmail.com",

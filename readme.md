@@ -1,9 +1,7 @@
 # [gulp](http://gulpjs.com)-loopback-sdk-angular [![Build Status](https://travis-ci.org/zimlin/gulp-loopback-sdk-angular.svg?branch=master)](https://travis-ci.org/zimlin/gulp-loopback-sdk-angular)
 
 > gulp plugin for auto-generating Angular $resource services for LoopBack.
-> This is a port from their Grunt plugin [here](https://github.com/strongloop/grunt-loopback-sdk-angular)
-
-Since strongloop didn't get around to this yet, I just quickly put this together. I'll maintain this until they fork it and take over.
+> This is a port of the Grunt plugin [here](https://github.com/strongloop/grunt-loopback-sdk-angular)
 
 ## Install
 
