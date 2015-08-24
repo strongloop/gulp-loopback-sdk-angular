@@ -1,6 +1,6 @@
 {
   "name": "gulp-loopback-sdk-angular",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "gulp plugin for auto-generating Angular $resource services for LoopBack",
   "license": "MIT",
   "repository": "strongloop/gulp-loopback-sdk-angular",
@@ -25,7 +25,7 @@
   ],
   "dependencies": {
     "gulp-util": "^3.0.1",
-    "loopback-sdk-angular": "^1.2.2",
+    "loopback-sdk-angular": "^1.4.0",
     "through2": "^1.1.1",
     "watchjs": "0.0.0"
   },
