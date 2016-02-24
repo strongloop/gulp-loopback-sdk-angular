@@ -8,13 +8,12 @@ it('should ', function (cb) {
   var stream = loopbackAngular();
 
   stream.on('data', function (file) {
-    assert.equal(
-      file.contents.length,
-      fs.statSync('fixtures/lb-services.js').size
-    );
     assert(/var urlBase = "\/rest-api-root";/.test(file.contents));
     assert(/var module = angular.module\("lbServices", \['ngResource'\]\);/
       .test(file.contents));
+    assert(/\.provider\('LoopBackResource', function LoopBackResourceProvider/
+      .test(file.contents));
+    assert(/\}\)\(window, window.angular\);/.test(file.contents));
   });
 
   stream.on('end', cb);
