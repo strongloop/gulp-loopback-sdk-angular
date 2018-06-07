@@ -10,7 +10,7 @@
     "url": "https://github.com/zimlin"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=6"
   },
   "scripts": {
     "test": "mocha --timeout 5000"
@@ -26,12 +26,11 @@
   "dependencies": {
     "gulp-util": "^3.0.1",
     "loopback-sdk-angular": "^3.0.0",
-    "through2": "^1.1.1",
+    "through2": "^2.0.3",
     "watchjs": "0.0.0"
   },
   "devDependencies": {
-    "loopback": "^2.2.0",
-    "loopback-datasource-juggler": "^2.9.0",
+    "loopback": "^3.19.3",
     "mocha": "*"
   }
 }
