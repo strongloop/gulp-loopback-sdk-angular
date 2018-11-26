@@ -3,6 +3,10 @@
 > gulp plugin for auto-generating Angular $resource services for LoopBack.
 > This is a port of the Grunt plugin [here](https://github.com/strongloop/grunt-loopback-sdk-angular)
 
+This module is in Active LTS mode, new features are no longer accepted.
+(See [Module Long Term Support Policy](#module-long-term-support-policy) below.)
+LoopBack 3 users looking for new features are encouraged to upgrade to LoopBack 4. Refer to [loopback-next#1849](https://github.com/strongloop/loopback-next/issues/1849) for more information on how to upgrade.
+
 ## Install
 
 ```sh
@@ -52,3 +56,13 @@ http://docs.strongloop.com/display/LB/AngularJS+JavaScript+SDK
 ## License
 
 MIT © [Zi Ming Lin](https://github.com/zimlin)
+
+## Module Long Term Support Policy
+
+This module adopts the [Module Long Term Support (LTS)](http://github.com/CloudNativeJS/ModuleLTS) policy, with the following End Of Life (EOL) dates:
+
+| Version | Status          | Published | EOL      |
+| ------- | --------------- | --------- | -------- |
+| 1.x     | Active LTS      | Jun 2018  | Dec 2019 |
+
+Learn more about our LTS plan in the [docs](https://loopback.io/doc/en/contrib/Long-term-support.html).
