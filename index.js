@@ -1,3 +1,8 @@
+// Copyright IBM Corp. 2014. All Rights Reserved.
+// Node module: gulp-loopback-sdk-angular
+// This file is licensed under the MIT License.
+// License text available at https://opensource.org/licenses/MIT
+
 'use strict';
 var gutil = require('gulp-util');
 var through = require('through2');
