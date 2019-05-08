@@ -4,11 +4,7 @@
   "description": "gulp plugin for auto-generating Angular $resource services for LoopBack",
   "license": "MIT",
   "repository": "strongloop/gulp-loopback-sdk-angular",
-  "author": {
-    "name": "Zi Ming Lin",
-    "email": "zi.lin9@gmail.com",
-    "url": "https://github.com/zimlin"
-  },
+  "author": "IBM Corp.",
   "engines": {
     "node": ">=6"
   },
