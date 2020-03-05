@@ -1,11 +1,18 @@
-# [gulp](http://gulpjs.com)-loopback-sdk-angular [![Build Status](https://travis-ci.org/zimlin/gulp-loopback-sdk-angular.svg?branch=master)](https://travis-ci.org/zimlin/gulp-loopback-sdk-angular)
+# gulp-loopback-sdk-angular [![Build Status](https://travis-ci.org/zimlin/gulp-loopback-sdk-angular.svg?branch=master)](https://travis-ci.org/zimlin/gulp-loopback-sdk-angular)
 
-> gulp plugin for auto-generating Angular $resource services for LoopBack.
-> This is a port of the Grunt plugin [here](https://github.com/strongloop/grunt-loopback-sdk-angular)
+**⚠️ LoopBack 3 is in Maintenance LTS mode, only critical bugs and critical
+security fixes will be provided. (See
+[Module Long Term Support Policy](#module-long-term-support-policy) below.)**
 
-This module is in Active LTS mode, new features are no longer accepted.
-(See [Module Long Term Support Policy](#module-long-term-support-policy) below.)
-LoopBack 3 users looking for new features are encouraged to upgrade to LoopBack 4. Refer to [loopback-next#1849](https://github.com/strongloop/loopback-next/issues/1849) for more information on how to upgrade.
+We urge all LoopBack 3 users to migrate their applications to LoopBack 4 as
+soon as possible. Refer to our
+[Migration Guide](https://loopback.io/doc/en/lb4/migration-overview.html)
+for more information on how to upgrade.
+
+## Overview
+
+[gulp](http://gulpjs.com) plugin for auto-generating Angular $resource services for LoopBack.
+This is a port of the Grunt plugin [here](https://github.com/strongloop/grunt-loopback-sdk-angular)
 
 ## Install
 
@@ -63,6 +70,6 @@ This module adopts the [Module Long Term Support (LTS)](http://github.com/CloudN
 
 | Version | Status          | Published | EOL      |
 | ------- | --------------- | --------- | -------- |
-| 1.x     | Active LTS      | Jun 2018  | Dec 2019 |
+| 1.x     | Maintenace LTS  | Jun 2018  | Dec 2020 |
 
 Learn more about our LTS plan in the [docs](https://loopback.io/doc/en/contrib/Long-term-support.html).
