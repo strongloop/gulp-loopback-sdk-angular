@@ -1,3 +1,13 @@
+2020-03-06, Version 1.0.1
+=========================
+
+ * Update LTS status in README (Miroslav Bajtoš)
+
+ * chore: update copyrights years (Agnes Lin)
+
+ * add lts announcement (jannyHou)
+
+
 2018-06-07, Version 1.0.0
 =========================
 
